@@ -104,20 +104,18 @@ body {
   padding: 0;
 }
 
-.skills-list dt {
+.skill-html {
+  background-image: url("img/icon-html.svg");
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
 }
 
-.skill-html {
-  background-image: url("img/icon-html.svg");
-  background-repeat: no-repeat;
-}
-
 .skill-css {
   background-image: url("img/icon-css.svg");
+  padding-left: 32px;
   background-repeat: no-repeat;
+  background-position: left;
 }
 
 .level {
