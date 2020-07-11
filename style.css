@@ -108,14 +108,14 @@ body {
   background-image: url("img/icon-html.svg");
   padding-left: 32px;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 48%;
 }
 
 .skill-css {
   background-image: url("img/icon-css.svg");
   padding-left: 32px;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 48%;
 }
 
 .level {
