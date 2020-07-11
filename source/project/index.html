@@ -2,39 +2,53 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Инструктор Кекс</title>
+    <title>Сайт начинающего верстальщика</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <header class="site-header">
-        <h1>Инструктор Кекс</h1>
-        <p>Обучение начинающих котят</p>
-        <img src="img/keks.png">
-      </header>
-
-      <section class="features">
-        <h2>Почему я?</h2>
-        <p class="feature-kitten">Я сам был котёнком, и вот я здесь</p>
-        <p class="feature-train">Хозяин натренирован на 100%</p>
-        <p class="feature-cat">Профессиональный кот уже более 5 лет</p>
-      </section>
-
-      <section class="skills">
-        <h2>Чему вы научитесь?</h2>
-        <ul class="skills-list">
-          <li class="skills-item">таскать еду из хозяйской тарелки;</li>
-          <li class="skills-item standart">придавать мебели винтажный стиль;</li>
-          <li class="skills-item standart">открывать дверь и не входить;</li>
-          <li class="skills-item vip">будить хозяина ночью;</li>
-          <li class="skills-item vip">разбрасывать шерсть по квартире.</li>
+    <header>
+      <h1>Сайт начинающего верстальщика</h1>
+    </header>
+    <main>
+      <img class="avatar" src="img/raccoon.svg" width="80" height="80" alt="Аватарка">
+      <nav class="blog-navigation">
+        <h2>Записи в блоге</h2>
+        <ul>
+          <li><a href="day-1.html">День первый. Как я забыл покормить кота</a></li>
+          <li><a href="day-2.html">День второй. Хочу быть верстальщиком</a></li>
+          <li><a href="day-3.html">День третий. Мой кот на меня обиделся</a></li>
+          <li><a href="day-4.html">День четвертый. Как я чуть не заболел</a></li>
+          <li><a href="day-5.html">День пятый. Отдыхаю</a></li>
+          <li><a href="day-6.html">День шестой. Как я ничего не понял</a></li>
+          <li><a href="day-7.html">День седьмой. Кекс выдал мне задание</a></li>
+          <li><a href="day-8.html">День восьмой. Очень серьёзный</a></li>
+          <li><a href="day-9.html">День девятый. Точнее ночь</a></li>
+          <li><a href="day-10.html">День десятый. Подведение итогов</a></li>
+          <li><a href="day-11.html">День одиннадцатый. Без фанатизма</a></li>
+          <li><a href="day-12.html">День двенадцатый. Все любят печенье</a></li>
+          <li><a href="day-13.html">День тринадцатый. Нашёл статью</a></li>
+          <li><a href="day-14.html">День четырнадцатый. Новый формат</a></li>
+          <li><a href="day-15.html">День пятнадцатый. Галерея селфи</a></li>
         </ul>
+      </nav>
+      <section>
+        <p>Всем привет! Добро пожаловать на мой первый сайт. Ещё недавно я понятия не имел, кто такой верстальщик, а теперь я нашёл <a href="https://htmlacademy.ru/courses">интерактивные курсы по HTML и CSS</a> и поставил перед собой цель — стать им. У меня даже появился инструктор — Кекс, который не позволит мне расслабиться и будет следить за моими успехами.</p>
+        <p>Моё первое задание — вести дневник и честно писать обо всех своих свершениях.</p>
       </section>
-
-      <footer class="site-footer">
-        <p>© Кекс, 2018</p>
-        <p>Контактов нет, я сам вас найду</p>
-      </footer>
-    </div>
+      <section>
+        <h2>Навыки</h2>
+        <dl class="skills">
+          <dt>HTML</dt>
+          <dd><div class="skills-level skills-level-ok" style="width: 60%;">60%</div></dd>
+          <dt>CSS</dt>
+          <dd><div class="skills-level" style="width: 20%;">20%</div></dd>
+          <dt>JS</dt>
+          <dd><div class="skills-level" style="width: 10%;">10%</div></dd>
+        </dl>
+      </section>
+    </main>
+    <footer>
+      Подвал сайта
+    </footer>
   </body>
 </html>
